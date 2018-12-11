@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ExaminationOnline">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="poi-ooxml-schemas-4.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Java/thu/lib/poi-ooxml-schemas-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-4.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Java/thu/lib/poi-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlbeans-3.0.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Java/thu/lib/xmlbeans-3.0.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-4.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Java/thu/lib/poi-ooxml-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ExaminationOnline"/>
+        <property name="java-output-path" value="/ExaminationOnline/build/classes"/>
+    </wb-module>
+</project-modules>
